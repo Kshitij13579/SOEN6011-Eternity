@@ -93,7 +93,11 @@ public class SatisticsTest {
     
     //square root of 1
     assertEquals(1.0, Statistics.sqrt(1.0), ACCEPTABLE_ERROR);
-
+    
+    //square root of 10^20
+    assertEquals(10000000000.0, Statistics.sqrt(100000000000000000000.0), ACCEPTABLE_ERROR);
+    
   }
+  
 
 }
