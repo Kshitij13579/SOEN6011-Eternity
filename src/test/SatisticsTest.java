@@ -72,6 +72,13 @@ public class SatisticsTest {
     elements.add(30.0);
     
     assertEquals(8.16496580927726, Statistics.stdv(elements), ACCEPTABLE_ERROR);
+    
+    elements.clear();
+    elements.add(-10.0);
+    elements.add(-20.0);
+    elements.add(-30.0);
+    
+    assertEquals(8.16496580927726, Statistics.stdv(elements), ACCEPTABLE_ERROR);
       
   }
   
