@@ -54,3 +54,20 @@ Note: Calculator-1.0.1.jar located in the target folder.
    ![Alt text](resources/images/File_input.png)
 
 Note: The input is text field is given preference over the file input. Keep the textfield blank while using File as input.
+
+## Direcotry Structure
+
+1. src : contains source code of the project.
+     - app : package contains code for User Interface in AppFrame.java and main method in App.java
+	 - math : package contains Statistics.java which has implementaiton and supporting function for standard deviation.
+	 - test : package contains unit test file for Statistics.java
+
+2. resources : contains resources for the project
+    - input  : contains sample input file with approximately 1 million records
+	- images : contains images used in README.md
+
+3. target : contain final artifact Calculator-1.0.1.jar
+
+4. doc : contain javadoc file. Run index.html to view javadoc.
+
+	  
