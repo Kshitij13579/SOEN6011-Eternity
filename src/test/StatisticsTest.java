@@ -17,7 +17,7 @@ import org.junit.Test;
  * @author Kshitij Yerande
  * @since 29-July-2022
  */
-public class SatisticsTest {
+public class StatisticsTest {
   
   static ArrayList<Double> elements;
   public static final double ACCEPTABLE_ERROR = 0.0000000001;
